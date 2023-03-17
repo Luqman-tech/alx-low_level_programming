@@ -15,8 +15,8 @@ int main(void)
 	        {
 		if (n < j && n != j)
 		{
-			putchar(n + '0')
-			putchar(j + '0')
+			putchar(n + '0');
+			putchar(j + '0');
 			putchar(',');
 			putchar(' ');
 		}
