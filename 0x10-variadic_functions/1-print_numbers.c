@@ -4,7 +4,7 @@
 
 /**
  * print_numbers: print number then new line
- * @separator: string to print btn numbers 
+ * @separator: string to print btn numbers
  * @n: integer numbers passed to the function.
  * @...: number of variable numbers to be printed.
  */
