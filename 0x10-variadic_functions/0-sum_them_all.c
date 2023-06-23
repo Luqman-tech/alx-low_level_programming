@@ -2,9 +2,12 @@
 #include <stdarg.h>
 
 /**
- *sum_them_all: return sum of paramters
+ * sum_them_all: return sum of parameters
+ * @n: parameter numbers to pass to function
+ * @...: parameter number variable for calculating the sum 
+ * return: when n == 0:  0
+ *          Otherwise : sum of parameter
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list ap;

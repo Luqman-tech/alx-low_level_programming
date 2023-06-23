@@ -3,12 +3,12 @@
 #include <stdarg.h>
 
 /**
- * print_numbers: prints numbers, then new line.
- * @...: variable numbers 
- * @separator: string to be printed 
- * @n: number of integers 
- */ 
- void print_numbers(const char *separator, const unsigned int n, ...)
+ * print_numbers: print number then new line
+ * @separator: string to print btn numbers 
+ * @n: integer numbers passed to the function.
+ * @...: number of variable numbers to be printed.
+ */
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list nums;
 	unsigned int index;
